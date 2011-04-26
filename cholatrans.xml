@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>System - Chola Transliterate</name>
+	<author>CholaPress</author>
+	<creationDate>November 2010</creationDate>
+	<copyright>2010 CholaPress</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<authorEmail>sales@cholaglobal.co</authorEmail>
+	<authorUrl>cholaglobal.co</authorUrl>
+	<version>1.0.1</version>
+	<description>Chola Transliterate plugin.This Plugin uses Google Transliteration API to transliterate the text boxes and textareas in Joomla.Don't forget to setup and enable the plugin</description>
+	<files>
+		<filename plugin="cholatrans">cholatrans.php</filename>
+		<folder plugin="cholatrans">cholatrans</folder>
+	</files>
+	<params>
+		
+		<param name="apikey" type="text" default="" label="Google API Key" description="Get the API Key From the Following Link : http://code.google.com/apis/loader/signup.html" />
+<param name="source_lang" type="list" default="en" label="Source Language" description="Select the Source Language">
+             <option value="en">English</option>
+             <option value="te">Telugu</option>
+             <option value="ml">Malayalam</option>
+             <option value="kn">Kannada</option>
+             <option value="hi">Hindi</option>
+             <option value="bn">Bengali</option>
+             <option value="mr">Marathi</option>
+             <option value="pa">Punjabi</option>
+             <option value="pa">Punjabi</option>
+             <option value="sa">Sanskrit</option>
+             <option value="sa">Sanskrit</option>
+             <option value="ur">Urdu</option> 
+              <option value="ru">Russian</option> 
+              <option value="ar">Arabic</option>
+		 </param>
+		 <param name="dest_lang" type="list" default="ta" label="Destination Language" description="Select the Destination Language">
+             <option value="ta">Tamil</option>
+             <option value="te">Telugu</option>
+             <option value="ml">Malayalam</option>
+             <option value="kn">Kannada</option>
+             <option value="hi">Hindi</option>
+             <option value="bn">Bengali</option>
+             <option value="mr">Marathi</option>
+             <option value="pa">Punjabi</option>
+             <option value="pa">Punjabi</option>
+             <option value="sa">Sanskrit</option>
+             <option value="sa">Sanskrit</option>
+             <option value="ur">Urdu</option> 
+              <option value="ru">Russian</option> 
+              <option value="ar">Arabic</option>
+		 </param>
+
+
+	</params>
+</install>
