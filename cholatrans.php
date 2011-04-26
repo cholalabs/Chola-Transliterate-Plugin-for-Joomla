@@ -5,7 +5,7 @@
  * Author	CholaPress
  * Email	sales@cholaglobal.co
  * Version	1.0.1
- * License	http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL
+ * License	First
  */
 
 // prevent direct access
@@ -26,12 +26,12 @@ class plgSystemCholaTrans extends JPlugin
 	function onAfterRender()
 	{
 		global $mainframe;
-		$siteURL =  JURI::base(); 
+		$siteURL =  JURI::base();
 		if ($mainframe->isAdmin())
 		{
 		 $baseURL    = str_replace("administrator/","",$siteURL).'plugins/system/cholatrans/cholatrans.js';
 		}
-		else  
+		else
 		{
 		$baseURL    = $siteURL.'plugins/system/cholatrans/cholatrans.js';
 		
