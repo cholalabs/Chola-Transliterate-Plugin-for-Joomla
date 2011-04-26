@@ -5,7 +5,7 @@
  * Author	CholaPress
  * Email	sales@cholaglobal.co
  * Version	1.0.1
- * License	First
+
  */
 
 // prevent direct access

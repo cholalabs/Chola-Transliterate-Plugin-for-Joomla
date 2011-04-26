@@ -7,7 +7,7 @@
 	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
 	<authorEmail>sales@cholaglobal.co</authorEmail>
 	<authorUrl>cholaglobal.co</authorUrl>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<description>Chola Transliterate plugin.This Plugin uses Google Transliteration API to transliterate the text boxes and textareas in Joomla.Don't forget to setup and enable the plugin</description>
 	<files>
 		<filename plugin="cholatrans">cholatrans.php</filename>
