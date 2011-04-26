@@ -4,7 +4,7 @@
  * Website	cholaglobal.co
  * Author	CholaPress
  * Email	sales@cholaglobal.co
- * Version	1.0.1
+ * Version	1.6.1
 
  */
 
